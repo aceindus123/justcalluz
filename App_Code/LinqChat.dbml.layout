@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqChat">
+  <DataContextMoniker Name="/LinqChatDataContext" />
+  <nestedChildShapes>
+    <classShape Id="35b68c74-7ed9-4d90-96c2-06db9ddd43cc" absoluteBounds="1.375, 2, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/LinqChatDataContext/LoggedInUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20f70cfe-a01f-49db-94af-fcbd51ea4947" absoluteBounds="1.3900000000000006, 2.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c6baa10-ae33-4667-96dd-16925863c879" absoluteBounds="4, 2.125, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/LinqChatDataContext/Room" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9143943-dab0-4d23-bf32-4ff4217cae4e" absoluteBounds="4.015, 2.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9bbbeb30-000c-47d0-8d66-fec47d38becb" absoluteBounds="1.375, 3.875, 2, 1.9631982421874992">
+      <DataClassMoniker Name="/LinqChatDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85e7dfc4-4a60-4b2c-a0f6-3d4ee7a44299" absoluteBounds="1.3899999999999997, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4 : 2.72199625651042); (3.375 : 2.72199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqChatDataContext/Room/Room_LoggedInUser" />
+      <nodes>
+        <classShapeMoniker Id="7c6baa10-ae33-4667-96dd-16925863c879" />
+        <classShapeMoniker Id="35b68c74-7ed9-4d90-96c2-06db9ddd43cc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.375 : 3.875); (2.375 : 3.3862939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LinqChatDataContext/User/User_LoggedInUser" />
+      <nodes>
+        <classShapeMoniker Id="9bbbeb30-000c-47d0-8d66-fec47d38becb" />
+        <classShapeMoniker Id="35b68c74-7ed9-4d90-96c2-06db9ddd43cc" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1162c709-0502-42d8-8119-3cf7b08f3996" absoluteBounds="3.875, 3.75, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/LinqChatDataContext/Message" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1aed48bb-922b-4db1-9bf9-beb65a0d82dc" absoluteBounds="3.8899999999999997, 4.21, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.9375 : 3.31899251302083); (4.9375 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqChatDataContext/Room/Room_Message" />
+      <nodes>
+        <classShapeMoniker Id="7c6baa10-ae33-4667-96dd-16925863c879" />
+        <classShapeMoniker Id="1162c709-0502-42d8-8119-3cf7b08f3996" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.375 : 5.2251052737236); (3.875 : 5.2251052737236)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqChatDataContext/User/User_Message" />
+      <nodes>
+        <classShapeMoniker Id="9bbbeb30-000c-47d0-8d66-fec47d38becb" />
+        <classShapeMoniker Id="1162c709-0502-42d8-8119-3cf7b08f3996" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.375 : 4.4875526368618); (3.875 : 4.4875526368618)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqChatDataContext/User/User_Message1" />
+      <nodes>
+        <classShapeMoniker Id="9bbbeb30-000c-47d0-8d66-fec47d38becb" />
+        <classShapeMoniker Id="1162c709-0502-42d8-8119-3cf7b08f3996" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,27 @@
+#basic-accordian{
+	border:1px solid #EEE;
+	width:250px;
+	position:absolute;
+	}
+
+.accordion_headings{
+	padding:5px;
+	background:#6FC7F7;
+	color:#FFFFFF;
+	border:1px solid #FFF;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.accordion_headings:hover{
+	background:#036;
+}
+
+.accordion_child{
+	padding:15px;
+	background:#F8F8F8;
+}
+
+.header_highlight{
+	background:#036;
+}

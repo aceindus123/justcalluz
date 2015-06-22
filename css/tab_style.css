@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin:10px;
+}
+#basic-accordian{
+	width:70%;
+	position:absolute;
+	overflow:hidden;
+
+}
+
+.accordion_headings{
+	padding:5px;
+	background:#425458;
+	color:#FFFFFF;
+	border:1px solid #FFF;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.accordion_headings:hover{
+	background:#fc9e0a;
+}
+
+.accordion_child{
+	padding:15px;
+	background:#FEF8ED;
+	width:95%;
+}
+
+.header_highlight{
+	background:#ea0510;
+}
+
+.tab_container *{
+	float:left;
+	width:160px;
+	padding:10px;
+	font-size:12px;
+	
+}

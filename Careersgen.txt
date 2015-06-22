@@ -1,0 +1,19 @@
+In
+
+
+--->Before log in there are options in jobs by category like
+	1. View similar jobs
+
+
+
+To save the job you need to login
+
+
+Search Jobs---------> Jobs By Category -----> Search_category.aspx----->  srchcategory_Home1.aspx?id=IT/Computers_Software
+
+
+
+After Log in In header menu instead of Post Resume and job seeker login tabs, My Careers tab have to come
+
+
+designed the log in form for admin control of Just Call uz website. Developed the code to login into the respective accounts like Admin and We admin.

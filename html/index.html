@@ -1,0 +1,1168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Indus Times</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+ <script language="JavaScript" type="text/javascript">
+           //<!--
+           //<![CDATA[
+           
+           first = 1;
+           last = 4;
+           current = 1;
+           
+           function nextPicture() {
+               // Hide current picture
+               object = document.getElementById('slide' + current);
+               object.style.display = 'none';
+               
+               // Show next picture, if last, loop back to front
+               if (current == last) { current = 1; }
+               else { current++ }
+               object = document.getElementById('slide' + current);
+               object.style.display = 'block';
+           }
+
+           function previousPicture() {
+               // Hide current picture
+               object = document.getElementById('slide' + current);
+               object.style.display = 'none';
+               
+               if (current == first) { current = last; }
+               else { current--; }
+               object = document.getElementById('slide' + current);
+               object.style.display = 'block';
+           }
+           //]]>
+           // -->
+       </script>
+       <style type="text/css">
+       <!--
+           .slideShow {
+	background-color: #ebebeb;
+	text-align: center;
+	margin-bottom: 0px;
+	padding: 2px;
+	font-family: Verdana, Geneva, sans-serif;
+           }
+           .slides {
+               position: relative;
+               z-index: 1;
+               display: none;
+           }
+           .setTitle, .slideTitle {
+               font-family: "Franklin Gothic Book", Arial, Helvitica, sans-serif;
+           }
+           .setTitle {
+               color: #995a01;
+               font-size: 14px;
+               font-weight: bold;
+               }
+           .slideTitle {
+               color: #666666;
+               font-size: 12px;
+           }
+           .controls {
+               position: relative;
+               z-index: 10;
+           }
+           #slide1 {
+               display: block;
+           }
+           
+           .img1 {
+               border: outset 1px #999999;
+           }
+       -->
+       </style>
+<style type="text/css">
+<!--
+.sidemenuhead {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size:13px;
+}
+
+.style40 {
+	font-size: 1px;
+	color: #FFFFFF;
+}
+-->
+</style>
+
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style40 {color: #FFFFFF}
+.style42 {color: #355271}
+.style43 {font-size: 11px}
+.style44 {color: #C00}
+.style46 {font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+.style45 {color: #00518C}
+.style48 {color: #00518C; font-size: 10px; }
+.style49 {color: #00518C; font-size: 11px; }
+.style52 {font-size:12px; color:#054997; font-family: Arial, Helvetica, sans-serif;}
+.style53 {font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+.style55 {font-size: 1px}
+.style57 {color: #D8E2E8}
+.style59 {
+	color: #749FCC;
+	font-weight: bold;
+	font-size: 25px;
+}
+.style60 {
+	color: #990000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.style61 {font-size: 14px}
+.style62 {font-size: 2px}
+.style63 {font-size: 12px}
+
+-->
+</style>
+</head>
+
+<body bgcolor="#d1dae1" style="margin:0px ">
+<center>
+	<div style="width:998px " class="border mainnews">
+		
+		
+		<div style="background-color:WHITE">
+			
+
+		</div>
+		<div style="background-color:WHITE; width:998px; padding:0; margin:0px; border-bottom:1px navyblue solid;" class="border" >
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td  width="300px" align="left"><img src="images/citybank_ad.jpg"></img></td>
+					<td width="400px" align="center"><a href="index.html"><img src="images/logosize.jpg" width="400" height="78" border="0"></a></img></td>
+					<td width="300px" align="right"><table>
+						<tr>
+							<td align="right">
+                            <img src="images/industravelssmallad.jpg">
+<!--<table>
+									<tr>
+										<td><img src="images/weather_sym1.jpg" width="30" height="28"></img></td>
+										<td valign="top">
+											<TABLE>
+												<TR>
+													<TD><span class="style60">
+							WEATHER IN USA</span></TD>
+												</TR>
+												<TR>
+													<TD class="mainnews"><strong>20&#176;</strong> <strong>F</strong> Forecast &nbsp;&nbsp;| &nbsp;
+													 Traffic </TD>
+											  </TR>
+											</TABLE>
+										</td>
+									</tr>
+								</table> -->
+							</td>
+						</tr>
+							<tr>
+							<td align="center"><a href="http://www.indus-times.net/india/" target="_blank"><img src="images/VIE.gif" border="0"></a></img></td>
+						</tr>
+					</table>
+
+</td>
+				</tr>
+			</table>
+		</div>
+		<div style="background-image: url(images/aa.jpg); background-repeat:repeat-x; width:998px;" align="center">
+	   <table class="mainmenu" align="center" cellpadding="0" cellspacing="0" height="30px" width="998px">
+          <tr align="center">
+          <td>&nbsp;&nbsp;</td>
+            <td align="center"><a href="index.html">Home</a></td>
+           
+            <td>|</td>
+     
+            <td><a href="local.html">Local</a></td>
+         
+            <td>|</td>
+            
+            <td><a href="southasia.html">South Asia</a></td>
+           
+            <td>&nbsp;|&nbsp;</td>
+       
+            <td><a href="usa.html">USA</a></td>
+        
+            <td>&nbsp;|&nbsp;</td>
+           
+            <td><a href="canada.html">Canada</a></td>
+          
+            <td>|</td>
+            
+            <td><a href="business.html">Business </a></td>
+       
+            <td >|</td>
+          
+            <td><a href="world.html">World </a></td>
+        
+            <td>|</td>
+        
+            <td><a href="sports.html">Sports</a></td>
+       
+            <td>|</td>
+      
+            <td><a href="classifieds.html">Classifieds </a></td>
+    
+            <td>|</td>
+          
+            <td><a href="jobs.html">Jobs</a></td>
+          
+            <td>|</td>
+           
+            <td><a href="rentals.html">Rentals</a></td>
+          
+            <td>|</td>
+         
+            <td><a href="realestate.html">Real Estate</a></td>
+            
+          </tr>
+        </table>
+	  </div>
+		<div style="background-color:#BB0416; width:998px; height:30px">	
+			<table>
+				<tr>
+					<td align="left">
+						<table cellpadding="0" cellspacing="0" align="left">
+				<tr>
+					<td class="mainnews2" width="150PX" style="text-decoration:blink "><span class="mainnews2" style="color:WHITE "><strong>&nbsp;&nbsp;<span class="style61">BREAKING NEWS</span></strong></span></td>
+					<td width="2px"></td>
+					<td class="breakingnews" style="color:WHITE; font-size:11PX " width="600px"><marquee onMouseOver="stop()" onMouseOut="start()" scrollamount="2">
+					Maoists kill three in Chhattisgarh&nbsp;&nbsp;-&nbsp;&nbsp;Bhopal gas leak victims protest at pollution control board''s office&nbsp;&nbsp;-&nbsp;&nbsp;Kashmir violence: Protest continues in Sopore&nbsp;&nbsp;-&nbsp;&nbsp;Jermaine Jackson wants critics to forgive Chris Brown&nbsp;&nbsp;-&nbsp;&nbsp;Kylie Minogue blames director for raunchy ?All The Lovers? video&nbsp;&nbsp;-&nbsp;&nbsp;Susan Sarandon filming Ping-Pong docu&nbsp;&nbsp;-&nbsp;&nbsp;Pakistan bans two Delhi CWG-bound female athletes over positive dope tests&nbsp;&nbsp;-&nbsp;&nbsp;22pc of drivers don?t wear seatbelts: UK study&nbsp;&nbsp;-&nbsp;&nbsp;?India must learn from China how to sell its strengths and achievements to world?&nbsp;&nbsp;-&nbsp;&nbsp;Personal relations boost business negotiations&nbsp;&nbsp;-&nbsp;&nbsp;SEBI to abide by newly changed govt. norms? in ULIP controversy&nbsp;&nbsp;-&nbsp;&nbsp;ttjjk&nbsp;&nbsp;-&nbsp;&nbsp;iill&nbsp;&nbsp;-&nbsp;&nbsp;
+					</marquee></td>
+					<td width="5px"></td>
+				</tr>
+			</table>
+				  </td>
+					<td><TABLE cellpadding="0" cellspacing="0">
+										<tr style="padding-right:10px ">
+											<td><input name="" type="text" size="20"></input></td>
+											<td><img src="images/search_but.gif"></img></td>											
+										</tr>
+									</TABLE></td>
+				</tr>
+			</table>
+		</div>
+		<div style="background-color:white; width:998px " align="center">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+				  <td width="150px" align="left" valign="top" bgcolor="#d8e2e8">
+						<table>
+							
+							<tr>	
+								<td class="mainnews border">
+									<table cellpadding="0" cellspacing="0" width="150PX">
+										<tr>
+											<td height="29"  style="padding:3PX; background-color:#054997 "><span class="sidemenuhead" style="padding-left:5px "><strong>HOME</strong></span></td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td class="sidemenu"><a href="classifieds.html" class="sidemenu" style="font-weight:normal ">Classifieds</a></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="events.html" class="sidemenu">Events</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr><tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="yellowpages.html" class="sidemenu">Yellow Pages</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="forum.html" class="sidemenu">Forum</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="immigration.html" class="sidemenu">Immigration</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="studyabroad.html" class="sidemenu">Study abroad</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td>
+														<td><span class="sidemenu"><a href="http://www.industravels.ws/"  target="_blank" class="sidemenu">Travels</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="matrimonial.html" class="sidemenu">Matrimonial</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td>
+														<td><span class="sidemenu"><a href="careers.html" class="sidemenu">Careers</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="advertise.html" class="sidemenu">Advertise</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td>
+														<td><span class="sidemenu"><a href="music.html" class="sidemenu">Music</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="movies.html" class="sidemenu">Movies</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td>
+														<td><span class="sidemenu"><a href="greetings.html" class="sidemenu">Greetings</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="biz.html" class="sidemenu">Biz</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td>
+														<td><span class="sidemenu"><a href="contactus.html" class="sidemenu">Contact Us</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuborder">
+												<table>
+													<tr>
+														<td><img src="images/arow.jpg"></img></td><td><span class="sidemenu"><a href="feedback.html" class="sidemenu">Feedback</a></span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td><span class="style57">ggggggggggggggggg</span></td>
+							</tr>
+							<tr>
+								<td style="border:1px #3183B2 solid "  bgcolor="#FFFFFF">
+									<table cellpadding="0" cellspacing="0">
+											<tr>
+												<td style="background-image:url(images/button_bg1.jpg); background-repeat:repeat-x; padding:5px "><span class="style60">
+													
+														
+													   WEATHER
+													
+												</span></td>
+											</tr>
+												<tr>
+													<td>
+														<table>
+															<tr>
+															<td>
+																<table>
+																	<tr><td><img src="images/weather_sym1.jpg" align="left"></img></td>
+																</tr>
+																	<tr><TD valign="top"><span class="style59">38°</span></TD></tr>
+																</table>
+															</td>
+													<td valign="top">
+														<TABLE cellpadding="0" cellspacing="0">
+															<TR>
+																<TD  style="padding-left:10PX "><span class="style42">HI 58°&nbsp;&nbsp;LO 29°</span></TD>
+															</TR>
+															<TR>
+																<TD  style="padding-left:10PX "><div align="left"><span class="style2">Truth Or Consequences, NM</span> <span class="most">Weatherforecast</span></div></TD>
+															</TR>
+														</TABLE>
+													</td>
+															</tr>
+														</table>
+													</td>
+													
+													
+												</tr>
+												
+								  </table>
+									
+								</td>
+							</tr>
+							
+							<tr>
+								<td><img src="images/ad_a3.jpg"></img></td>
+							</tr>
+							
+					    <tr>
+								<td><img src="images/ad_a5.jpg" width="150" height="75"></img></td>
+						  </tr>							
+							
+							<tr>
+								<td><img src="images/ad_a2.jpg" width="150" height="75"></img></td>
+							</tr>
+							
+							
+												
+
+							
+							
+						</table>
+		      </td>
+					<td width="670px" align="center" valign="top">
+						<table align="left">	
+							<tr>
+							  <td>
+									<table align="center" width="630px" cellpadding="0" cellspacing="0">
+										<!--<tr>
+											<td  bgcolor="#00CCCC" width="650px"><img src="images/ad1.jpg" width="620px"></img></td>
+										</tr> -->
+                                        <tr align="center">
+                                        	<td width="206px" align="center"><img src="images/mnhbsad_new.gif" width="206" height="75"></td>
+                                            <td width="5px">&nbsp;</td>
+                                            <td width="206px" align="center"><img src="images/wizardslearning_new_25.jpg" width="206" height="75"></td>
+                                            <td width="5px">&nbsp;</td>
+                                            <td width="206px" align="center"><img src="images/newtravels_new_25.gif" width="206" height="75"></td>
+                                        </tr>
+									</table>
+							  </td>
+							</tr>
+							<tr>
+								<td>
+									<table>
+										<tr>
+											<td width="300px" valign="top">
+												<table>
+													<tr>
+														<td valign="top" class="border">
+															<div class="slideShow" align="left">
+           
+           
+                                                              <div id="slide1" class="slides">
+                                                                <div id="img1"><img src="images/4.jpg"  width="300px" /></div>
+                                                                <p align="left" style=" padding:0; margin:0px ; padding-top:5px">Microsoft Entertainment and Devices Division President Robbie Bach speaks during CEO Steve Ballmer's keynote address at the International Consumer Electronics Show (CES) in Las Vegas on Wednesday. ? AP</p>
+                                                              </div>
+                                                              <div id="slide2" class="slides">
+               
+              <div id="img1"> <img src="images/2.jpg"  width="300" height="226" /></div>
+			 <p align="left" style=" padding:0; margin:0px ; padding-top:5px">Microsoft Entertainment and Devices Division President Robbie Bach speaks during CEO Steve Ballmer's keynote address at the International Consumer Electronics Show (CES) in Las Vegas on Wednesday. ? AP</p>
+           </div>
+           <div id="slide3" class="slides">
+              
+              <div id="img1"> <img src="images/3.jpg"  width="300" height="226"/></div>
+			  <p align="left" style=" padding:0; margin:0px ; padding-top:5px">Microsoft Entertainment and Devices Division President Robbie Bach speaks during CEO Steve Ballmer's keynote address at the International Consumer Electronics Show (CES) in Las Vegas on Wednesday. ? AP</p>
+           </div>
+           <div id="slide4" class="slides">
+               
+				  <div id="img1"> <img src="images/4.jpg"  width="300" height="226"/></div>
+			 <p align="left" style=" padding:0; margin:0px ; padding-top:5px">Microsoft Entertainment and Devices Division President Robbie Bach speaks during CEO Steve Ballmer's keynote address at the International Consumer Electronics Show (CES) in Las Vegas on Wednesday. ? AP</p>
+           </div>
+           <div class="controls" align="right" style="padding:0px; margin:0px ">
+		   
+               <a href="javascript:previousPicture()" style="margin: 0px;"><img src="images/left.jpg" style="border:0 "></img></a>
+			  <img src="images/pus.jpg" style="border:0">
+               <a href="javascript:nextPicture()" style="margin: 0px;"><img src="images/right.jpg" style="border:0 "></img></a>
+           </div>
+       </div>
+														</td>
+													</tr>
+													
+												</table>
+											</td>
+											<td width="370px" valign="top">//ekkadiki aipoindhi//
+												<table align="left">
+													<tr>
+														<td align="left">
+															<table>
+														<tr>
+															<td><div align="left"><span class="ent">Massoud Mohammadi, professor of Tehran </span></div></td>
+														</tr>
+														<tr>
+															<td class="mainnews"><div align="left">University, was killed in a booby-trapped motorbike blast,? Press TV said.&nbsp;<span class="classilist style42">&nbsp;<span class="style49  style43" style="text-decoration:underline ">Full Story</span></span></div></td>
+														</tr>
+														<tr>
+															<td class="mainnews" style="padding-left:5px">
+																<table>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/listsymbol1.jpg"></img></td>
+																		<td valign="top"><span>CM to go ahead with meeting of collectors </span></td>
+										
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/listsymbol1.jpg"></img></td>
+																		<td valign="top"><span class="mainnews"> CM, employees fail to break ice on pay hike</span></td>
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/listsymbol1.jpg"></img></td>
+																		<td valign="top"><span class="mainnews"> Colleges in AP left in the lurch</span></td>
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/listsymbol1.jpg"></img></td>
+																		<td valign="top"><span class="mainnews">Tooth for an eye helps the blind see</span></td>
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/listsymbol1.jpg"></img></td>
+																		<td valign="top"><span class="mainnews">JAC backs students? bandh call</span></td>
+																	</tr>
+																	
+																</table>																
+															</td>
+														</tr>
+														<tr align="right">
+															<td align="right" class="style44" style="margin:0; padding:0px "><span class="style46 style43">More..</span></td>
+														</tr>
+											  </table>
+														</td>
+													</tr>
+													<tr>
+														<td align="left" class="border">
+															<table>
+													<tr>
+														<td class="headings style48 border" width="565PX">
+															<table>
+																<tr>
+																	<td><img src="images/latestworldnews1.jpg"></img></td>
+																	<td><img src="images/lis1.jpg" width="8" height="13"></img></td>
+																	
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td style="padding-left:5px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0">
+																<tr>
+																	<td  class="style45 style43">
+																		<table>
+																	<tr>
+																		<td valign="top" style="padding-top:5px; padding-right:5px "><img src="images/small_list_symbol.jpg" width="5" height="8"></td>
+																		<td valign="top"><span class="style43 style45"><strong>CM to go ahead with meeting of collectors </strong></span></td>
+										
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/small_list_symbol.jpg" width="5" height="8"></td>
+																		<td valign="top"><span class="style43 style45"><strong> CM, employees fail to break ice on pay hike</strong></span></td>
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/small_list_symbol.jpg" width="5" height="8"></td>
+																		<td valign="top"><span class="style45 style43"><strong> Army chief loses ear, will retire disabled</strong></span></td>
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/small_list_symbol.jpg" width="5" height="8"></img></td>
+																		<td valign="top"><span class="style45 style43"><strong>Pak moves SC to restrict AQ Khan Batsmen have to set big total now: Zak </strong></span></td>
+																	</tr>
+																	<tr>
+																		<td valign="top" style="padding-top:5px "><img src="images/small_list_symbol.jpg" width="5" height="8"></td>
+																		<td valign="top"><span class="style45 style43"><strong>Modern China makes peace with its past</strong></span></td>
+																	</tr>
+																	
+																</table>		
+																	</td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+													
+													
+													
+												</table>
+														</td>
+													</tr>
+												</table>
+												
+											</td>
+										</tr>
+										
+									</table>
+								</td>
+							</tr>
+							<TR>
+								<TD align="left">
+									<table cellpadding="0" cellspacing="0">
+										<tr>
+											<td valign="top" class="border">
+										  <table width="425px">
+													<tr>
+														<td class="ent border" ><div align="left" class="style43">World</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0" style="padding:0px; margin:0px ">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/CJI-to-decide-on-Dinakara-081209.jpg" width="78" height="60" align="left" style="padding-right:2px; padding-bottom:5px "></img>
+																
+																  </td>
+																  <td style="padding:0px; margin:0px ">
+																  <ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+											<td width="2px" valign="top">&nbsp;</td>
+											<td width="206px" >
+										    <img src="images/hollywoodad.jpg" width="206" height="90"></td>
+										</tr>
+									</table>
+								</TD>
+							</TR>
+                            
+                            <!-- new start -->
+      <TR>
+      <TD align="left">
+									<table cellpadding="0" cellspacing="0" >
+                                  
+										<tr>
+                                          
+											<td width="206px" >
+										    <img src="images/bollywoodad.jpg" width="206" height="90"></td><td width="2px" valign="top">&nbsp;</td>
+											<td valign="top" class="border">
+										  <table  width="425px">
+													<tr>
+														<td class="ent border"><div align="left" class="style43">Business</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px "><span style="padding:0px; margin:0px "></span>
+														  <table cellpadding="0" cellspacing="0" style="padding:0px; margin:0px ">
+													    <tr>
+																	<td style="padding:0px; margin:0px "><img src="images/India-eyes-Africa-to-quen-081209.jpg" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																  <ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+														  </td>
+														    </tr>
+																
+																
+														  </table>
+													  </td>
+													</tr>
+	
+												</table>
+											</td>
+											
+										</tr>
+									</table>
+				</TD>
+      	
+      </TR>
+                            <!-- new end -->
+                            
+                            <!--2 start -->
+       <TR>
+       		<TD align="left">
+									<table cellpadding="0" cellspacing="0">
+										<tr>
+											<td  valign="top" class="border">
+										  <table  width="425px">
+													<tr>
+														<td class="ent border" ><div align="left" class="style43">Politics</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0" style="padding:0px; margin:0px ">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/Congress-not-in-T-mood-081209.jpg" width="78" height="60" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																  <ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+											<td width="2px" valign="top">&nbsp;</td>
+											<td width="206px" >
+										    <img src="images/tollywoodad.jpg" width="206" height="90"></td>
+										</tr>
+									</table>
+				</TD>
+       </TR>
+                            <!--2 end -->
+                            
+                            
+                            
+                        <!--3 start -->
+        <TR>
+        	<TD align="left">
+<table cellpadding="0" cellspacing="0">
+										<tr>
+                                        	
+											<td width="206px" >
+										    <img src="images/wizardsintl_ad.jpg" width="206" height="90"></td><td width="2px" valign="top">&nbsp;</td>
+                                        
+										  <td  valign="top" class="border">
+				  <table  width="425px">
+													<tr>
+														<td class="ent border"><div align="left" class="style43">Technology</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0" style="padding:0px; margin:0px ">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/PH2009123101530.jpg" width="78" height="60" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+														  <ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+										  </td>
+										
+										</tr>
+				  </table>
+				</TD>
+        </TR>  
+                        <!--3 end -->  
+                            
+                    <!--4 start --> 
+                    <!--<TR>
+                    	<TD align="left">
+									<table cellpadding="0" cellspacing="0">
+										<tr>
+											<td width="462px" valign="top" class="border">
+												<table>
+													<tr>
+														<td class="ent border" width="462px"><div align="left" class="style43">World</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0" style="padding:0px; margin:0px ">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/CJI-to-decide-on-Dinakara-081209.jpg" width="78" height="60" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																  <ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+											<td width="2px" valign="top">&nbsp;</td>
+											<td width="206px" >
+										    <img src="images/hollywoodad.jpg" width="206" height="90"></td>
+										</tr>
+									</table>
+								</TD>
+                    </TR> -->
+                           
+                    <!--4 end -->
+                    <!--5 start -->
+                    <!--<TR>
+                       <TD align="left">
+									<table cellpadding="0" cellspacing="0">
+										<tr>
+											<td width="462px" valign="top" class="border">
+												<table>
+													<tr>
+														<td class="ent border" width="462px"><div align="left" class="style43">World</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0" style="padding:0px; margin:0px ">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/CJI-to-decide-on-Dinakara-081209.jpg" width="78" height="60" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																  <ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+											<td width="2px" valign="top">&nbsp;</td>
+											<td width="206px" >
+										    <img src="images/hollywoodad.jpg" width="206" height="90"></td>
+										</tr>
+									</table>
+								</TD>
+                    
+                    </TR> -->
+                    <!--5 end -->
+                            
+					    <!--<TR>
+								<TD>
+									<table cellpadding="0" cellspacing="0">
+										<tr>
+											<td width="334px" valign="top"  class="border">
+												<table>
+													<tr>
+														<td class="ent border" width="334px"><div align="left" class="style43">Politics</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/Congress-not-in-T-mood-081209.jpg" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																		<ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																	</td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+											<td width="2px" valign="top">&nbsp;</td>
+											<td width="334px" valign="top" class="border">
+												<table>
+													<tr>
+														<td class="ent border" width="334px"><div align="left" class="style43">Technology</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:00px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/PH2009123101530.jpg" width="78" height="60" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																		<ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+										</tr>
+									</table>
+								</TD>
+							</TR> -->
+							<TR>
+								<TD>
+									<table cellpadding="0" cellspacing="0">
+										<tr>
+											<td width="334px" valign="top" class="border">
+												<table>
+													<tr>
+														<td class="ent border" width="334px"><div align="left" class="style43">Sports</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:00px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/Ojha-looks-for-a-long-inn-071209.jpg" width="78" height="60" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																		<ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+											<td width="2px" valign="top">&nbsp;</td>
+											<td width="334px" valign="top"  class="border">
+												<table>
+													<tr>
+														<td class="ent border" width="334px"><div align="left" class="style43">Arts</div></td>
+													</tr>
+													<tr>
+														<td style="padding-left:0px; padding-top:10px ">
+															<table cellpadding="0" cellspacing="0">
+																<tr>
+																	<td style="padding:0px; margin:0px "><img src="images/events-art-show-122_221884f.jpg" width="78" height="60" align="left" style="padding-right:20px; padding-bottom:5px "></img>
+																		<ul style=" list-style-image:url(images/listsymbol1.jpg); padding-left:8px; margin-left:20px; padding-bottom:0px; padding-top:0px; margin-bottom:0px; margin-top:0px ">
+																			<li class="style52 sidemenu">Quake devastates Haiti, many casualties feared </li>
+																			
+																			<li class="sidemenu"><span class="style53">The human resources development minister, Mr Kapil Sibal,</span></li>
+																			<li class="sidemenu"><span class="style53"> clarified on Tuesday that not a single student of any failed </span></li>
+																	  </ul>
+																  </td>
+																</tr>
+																
+																
+															</table>
+														</td>
+													</tr>
+	
+												</table>
+											</td>
+										</tr>
+									</table>
+								</TD>
+							</TR>
+							
+							<tr>
+								<td><span class="style40"><span class="style55">ffffffffffffffffffffff</span></span></td>
+							</tr>
+							
+						</table>						
+				  </td>
+					<td width="180px" align="left" valign="top" class="border">
+						<table align="center" width="180px">
+							<tr>
+								<td class="border" style="background-color:#EEEEEE" width="180px">
+									<table cellpadding="0" cellspacing="0">
+										<tr style="background-image:url(images/mainbg1.jpg); background-repeat:repeat-x; " >
+										<td height="25PX" class="sidemenuhead subheading"><strong>ARTS & LIVING</strong></td>
+										</tr>
+										<tr>
+										<td style="padding:0PX; margin:0PX " align="center"><img src="images/178.jpg" width="180px"></img> </td>
+										</tr>
+										
+										<tr>
+										<td height="20px" bgcolor="#BB0416" class="subheading sidemenuhead"  style="padding:2px " width="180px"><div align="left"><strong>Slacking off for the camera </strong></div></td>
+										</tr>
+										<tr>
+										<td><span class="mainnews">Hammad Khan?s first feature film captures the pointlessness of privilege among Islamabad?s elite youth. </span></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr style="padding:0; margin:0PX "><td style="padding:0; margin:0PX "><span class="style40">V</span></td>
+							</tr>
+							<tr style="padding:0; margin:0PX "><td style="padding:0; margin:0PX "><span class="style40">V</span></td>
+							</tr>
+							<tr>
+								<td class="border" width="180px">
+									<table>
+										<tr style="background-image:url(images/mainbg1.jpg); background-repeat:repeat-x; " >
+										<td height="25PX" class="sidemenuhead subheading"><strong>DAWN CLICKS </strong></td>
+										</tr>
+										<tr>
+										<td><img src="images/179.jpg" width="178" height="100"></img> </td>
+										</tr>
+										
+										<tr>
+										<td height="20px" bgcolor="#CC8A11" class="subheading sidemenuhead"  style="padding:2px "><div align="left"><strong>Out of the darkness  </strong></div></td>
+										</tr>
+										<tr>
+										<td><span class="mainnews">Hammad Khan?s first feature film captures the pointlessness of privilege among Islamabad?s elite youth. </span></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr style="padding:0; margin:0PX "><td style="padding:0; margin:0PX "><span class="style40">V</span></td>
+							</tr>
+							<tr style="padding:0; margin:0PX "><td style="padding:0; margin:0PX "><span class="style40">V</span></td>
+							</tr>
+							<tr>
+								<td class="border" width="180px">
+									<table>
+										<tr style="background-image:url(images/mainbg1.jpg); background-repeat:repeat-x; " >
+										<td height="25PX" class="sidemenuhead subheading"><strong>HISTRIONICS </strong></td>
+										</tr>
+										<tr>
+										<td><img src="images/klashni-178.jpg" width="178" height="100"></img> </td>
+										</tr>
+										
+										<tr>
+										<td height="20px" bgcolor="#BB0416" class="subheading sidemenuhead"  style="padding:2px "><div align="left"><strong>Klashni-country </strong></div></td>
+										</tr>
+										<tr>
+										<td><span class="mainnews">Hammad Khan?s first feature film captures the pointlessness of privilege among Islamabad?s elite youth. </span></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							
+							<tr style="padding:0; margin:0PX "><td style="padding:0; margin:0PX "><span class=".style40 style40">V</span></td></tr>
+							
+							
+							
+							<tr>
+								<td><img src="images/beautiful-birds-1.jpg" width="180px" height="129"></IMG></td>
+							</tr>
+							
+						</table>
+					</td>
+				</tr>
+       </table>
+	   </div>
+		<DIV style="background-color:#FFFFFF ">
+			<table cellpadding="0" cellspacing="0" width="998px">
+				<tr>
+					<td align="center"><img src="images/wleraing1.jpg"width="330" height="50"></img></td>
+					<td align="center"><img src="images/wtraing.jpg" width="330" height="50"></img></img></td>					
+					<td align="center"><img src="images/Ia_Matrimony.gif" width="330" height="50"></img></td>
+					
+					
+				</tr>
+			</table>
+		</DIV>
+		<div class="style62">v</div>
+		
+		<div style="width:998px;  background-image:url(images/footerbg.jpg); background-repeat:repeat-x; height:50px; padding:0px" align="center" >
+		       <table align="center" cellpadding="0" cellspacing="0" width="998PX">
+                 <tr valign="top">
+                   <td class="footermenu" align="center" valign="top" style="padding-top:10PX "><table cellpadding="0" cellspacing="0">
+                       <tr>
+                         <td><a href="chat.html">CHAT</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="music.html">MUSIC</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="movies.html">MOVIES</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="http://industravels.ws/" target="_blank">TRAVELS</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="biz.html">BIZ</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="blogs.html">BLOGS</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="email.html">EMAIL</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="greetings.html">GREETINGS</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="matrimonial.html">MATRIMONIAL</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="careers.html">CAREERS</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="advetise.html">ADVERTISE</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="contactus.html">CONTACT US</a></td>
+                         <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                         <td><a href="feedback.html">FEEDBACK</a></td>
+                       </tr>
+                   </table></td>
+                 </tr>
+                 <tr valign="top">
+                   <td valign="top" align="center" class="footertext">Copyright © 2009 Indus Times. All rights reserved. For reprint rights: Indus Times Service</td>
+                 </tr>
+                 <tr valign="top">
+                   <td valign="top" align="center" class="footertext">This site is best viewed with Internet Explorer 6.0 or higher; Firefox 2.0 or higher at a minimum screen resolution of 1024x768</td>
+                 </tr>
+               </table>
+		      
+</div>
+	</div>
+</center>
+</body>
+</html>

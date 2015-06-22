@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="jcalluz" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=jcalluz.db.8035572.hostedresource.com;Initial Catalog=jcalluz;User ID=jcalluz" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="jcalluzConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.User_jcalluz" Member="User_jcalluzs">
+    <Type Name="User_jcalluz">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Firstname" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Lastname" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Sex" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Association Name="User_jcalluz_Message_jcalluz" Member="Message_jcalluzs" OtherKey="UserID" Type="Message_jcalluz" />
+      <Association Name="User_jcalluz_Message_jcalluz1" Member="Message_jcalluzs1" OtherKey="ToUserID" Type="Message_jcalluz" />
+      <Association Name="User_jcalluz_LoggedInUser_jcalluz" Member="LoggedInUser_jcalluzs" OtherKey="UserID" Type="LoggedInUser_jcalluz" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Room_jcalluz" Member="Room_jcalluzs">
+    <Type Name="Room_jcalluz">
+      <Column Name="RoomID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Room_jcalluz_Message_jcalluz" Member="Message_jcalluzs" OtherKey="RoomID" Type="Message_jcalluz" />
+      <Association Name="Room_jcalluz_LoggedInUser_jcalluz" Member="LoggedInUser_jcalluzs" OtherKey="RoomID" Type="LoggedInUser_jcalluz" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Message_jcalluz" Member="Message_jcalluzs">
+    <Type Name="Message_jcalluz">
+      <Column Name="MessageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoomID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ToUserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Text" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Color" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Room_jcalluz_Message_jcalluz" Member="Room_jcalluz" ThisKey="RoomID" Type="Room_jcalluz" IsForeignKey="true" />
+      <Association Name="User_jcalluz_Message_jcalluz" Member="User_jcalluz" ThisKey="UserID" Type="User_jcalluz" IsForeignKey="true" />
+      <Association Name="User_jcalluz_Message_jcalluz1" Member="User_jcalluz1" ThisKey="ToUserID" Type="User_jcalluz" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoggedInUser_jcalluz" Member="LoggedInUser_jcalluzs">
+    <Type Name="LoggedInUser_jcalluz">
+      <Column Name="LoggedInUserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RoomID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Room_jcalluz_LoggedInUser_jcalluz" Member="Room_jcalluz" ThisKey="RoomID" Type="Room_jcalluz" IsForeignKey="true" />
+      <Association Name="User_jcalluz_LoggedInUser_jcalluz" Member="User_jcalluz" ThisKey="UserID" Type="User_jcalluz" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

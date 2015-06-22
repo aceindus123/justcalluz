@@ -1,0 +1,36 @@
+body,p,ul,li{font-family:verdana;margin:0;padding:0;font-size:12px;list-style-type:none;color:#424242;}
+
+.imageslideshow{padding:10px 5px 0;margin:0;width:740px;float:left}
+.invertopen,.invertclose,.slideshowleft,.slideshowright,.greyleft,.greyright,.blueleft,.blueright,.galleryimage{background:url('http://images.jdmagicbox.com/jcontent/sprite.png') no-repeat;}
+.slideshowleft{background-position:-95px -32px; float:left;width:36px;height:112px;}
+.slideshowright{background-position:-170px -32px; float:left;width:36px;height:112px;}
+.slideshowmiddle{background:url('http://images.jdmagicbox.com/jcontent/repeat.gif') repeat-x;float:left;height:112px;vertical-align:middle;padding:9px 13px 5px 0;width:654px;display:inline;}
+.slideshowmiddle li{margin:0 19px;padding:0;}
+.greyleft{background-position:-31px -106px; float:left;width:21px;height:30px;margin-top:38px;margin-left:8px;border:0;cursor:pointer;}
+.blueleft{background-position:-31px -58px; float:left;width:21px;height:30px;margin-top:38px;margin-left:8px;border:0;cursor:pointer;}
+.blueright{background-position:-62px -106px; float:left;width:21px;height:30px;margin-top:38px;margin-left:5px;border:0;cursor:pointer;}
+.greyright{background-position:-62px -58px; float:left;width:21px;height:30px;margin-top:38px;margin-left:5px;border:0;cursor:pointer;}
+.slideshowmiddle img{padding:5px 0;}
+
+.mainimage{margin:0 auto;font-family:Verdana;width:652px;display:none;float:left;width:425px;padding:0;position:absolute;left:-130px !important;z-index:1002;background:#fff!important; _top:-180px;_left:0px;}
+
+.popuptop,.popupbottom,.blackgreyleft,.blackblueright{background:url('http://images.jdmagicbox.com/jcontent/sprite.png') no-repeat;}
+.popuptop{background-position:-266px -97px; float:left;width:651px;height:23px;z-index:1;}
+.popupbottom{background-position:-266px -128px; float:left;width:651px;height:24px;z-index:1;position: relative;}
+.popupmiddle{border-right:4px solid #BCBCBC;border-left:4px solid #BCBCBC;height:450px;width:642px;float:left;margin-left:1px;position: relative;_left:-1px}
+.popupclose{float:right;border:0;position: relative;z-index:1000;right:-14px;top:-30px;background:url('http://images.jdmagicbox.com/jcontent/cross.png') no-repeat;width:29px;height:28px;_background:url('http://images.jdmagicbox.com/jcontent/cross.gif') no-repeat;}
+.blackgreyleft{background-position:-227px -32px; float:left;width:32px;height:58px;margin-top:182px;border:0;position: absolute;z-index:2000;left:5px;cursor:pointer;}
+.blackblueleft{background-position:-317px -32px; float:left;width:32px;height:58px;margin-top:182px;border:0;position: absolute;z-index:2000;left:5px;cursor:pointer;}
+.blackblueright{background-position:-267px -32px; float:right;width:32px;height:58px;margin-top:182px;border:0;position: absolute;z-index:2000;right:4px;cursor:pointer;}
+.blackgreyright{background-position:-357px -32px; float:right;width:32px;height:58px;margin-top:182px;border:0;position: absolute;z-index:2000;right:4px;cursor:pointer;}
+.popupdiv a{text-decoration:none;}
+.photo_box1{display: block;float: left;position: absolute;margin:-18px 0 0 0;height:200px}
+.rblock{float:right;width:278px;}
+
+.ipad .mainimage{top:100px;}
+.ie9 .mainimage{top:-50px !important;}
+
+/*winner page floating css*/
+.floatdiv{float:left;width:955px;background:#fff;}
+.border{float:left;width:955px;margin:6px 0;}
+/*End winner page css*/

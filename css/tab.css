@@ -1,0 +1,41 @@
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body {
+	 margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:0.750em; color:#036; line-height:18px;
+}
+
+#basic-accordian{
+	border:5px solid #EEE;
+	padding:5px;
+	width:375px;
+	position:absolute;
+	z-index:2;
+	
+}
+
+.accordion_headings{
+	padding:5px;
+	background:#99CC00;
+	color:#FFFFFF;
+	border:1px solid #FFF;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.accordion_headings:hover{
+	background:#00CCFF;
+}
+
+.accordion_child{
+	padding:40px;
+	background:#EEE;
+}
+
+.header_highlight{
+	background:#00CCFF;
+}
+

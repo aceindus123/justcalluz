@@ -1,0 +1,18 @@
+if (ddlcities.SelectedItem.Text != "select city")
+        {
+            string tname = Convert.ToString(ddlcinemahalls.SelectedItem);
+            string qry = string.Empty;
+            Int32 id;
+            qry = "select p.id,p.Company_Name,r.CinemaHall_Name from modulesdata p inner join Movies r on p.company_name=r.CinemaHall_Name and p.company_name='" + tname + "'";
+            SqlDataAdapter damovies = new SqlDataAdapter(qry, con);
+            DataSet ds = new DataSet();
+            damovies.Fill(ds);
+            id=Convert.ToInt32(ds.Tables[0].Rows[0]["id"].ToString());
+            Response.Redirect("sessionstore.aspx?tname=" + tname + "&id=" + id);
+
+        }
+        else
+        {
+            strScript = "alert('Kindly , select any city and corresponding theatre');";
+            Page.ClientScript.RegisterStartupScript(this.GetType(), "alertBox", strScript, true);
+        }

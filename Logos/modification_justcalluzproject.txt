@@ -1,0 +1,12 @@
+	http://www.justcalluz.com/admin/Admin_Ads.aspx?cat=TV%20Ads
+WITH OUT UPLOADING ANYTHING IT WENT BACK TO HOMEPAGE 
+DROPDOWN ALSO RESTRICTION IS NEED FOR WEBSITE
+
+
+if no adds available on that particular situation admin click the view button  
+it raises alert box please check the checkbox
+
+Delete button also cant delete the 2 records at a time  approve reject/
+
+
+Share Your Views About Justcalluz mobile number textbox allowing the text alsoand  photo also taken .doc file
